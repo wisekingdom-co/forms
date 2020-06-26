@@ -1,6 +1,6 @@
 {
   "name": "@wisekingdom/forms",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "main": "index.js",
   "types": "index.d.ts",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "build": "tsc -p tsconfig.json",
     "prepublish": "rm -rf dist && npm run build",
     "postpublish": "git push --tags",
-    "postversion": "git add package.json && git commit -a -m \"v$npm_package_version\" && git push"
+    "postversion": "git add package.json && git push && git commit -a -m \"v$npm_package_version\""
   },
   "devDependencies": {
     "@types/node": "^14.0.14",
