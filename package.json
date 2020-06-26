@@ -1,5 +1,6 @@
 {
   "name": "@wisekingdom/forms",
+  "description": "Wisekingdom Forms",
   "version": "1.0.28",
   "main": "index.js",
   "types": "index.d.ts",
