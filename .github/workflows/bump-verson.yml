@@ -13,6 +13,6 @@ jobs:
       id: changelog
       uses: TriPSs/conventional-changelog-action@v2
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.PATNAME }}
         output-file: 'false'
         skip-on-empty: 'true'
