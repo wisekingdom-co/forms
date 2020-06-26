@@ -19,6 +19,18 @@
     "postpublish": "git push --tags",
     "postversion": "git add package.json; git commit -a -m \"v$npm_package_version\"; git push origin master; git push --tag"
   },
+  "peerDependencies": {
+    "antd": ">=4.3",
+    "formik": ">=2.1",
+    "moment": ">=2.27",
+    "ramda": ">=0.27",
+    "react": ">=16.13",
+    "react-google-recaptcha": ">=2.1",
+    "redux": ">=4.0",
+    "styled-components": ">=5.1",
+    "typescript": ">=3.9",
+    "validator": ">=13.1"
+  },
   "devDependencies": {
     "@types/node": "^14.0.14",
     "@types/ramda": "^0.27.6",
