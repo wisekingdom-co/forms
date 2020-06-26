@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@master
     - name: Conventional Changelog Action
       id: changelog
-      uses: TriPSs/conventional-changelog-action@v2
+      uses: isman-usoh/conventional-changelog-action
       with:
         github-token: ${{ secrets.PATNAME }}
         output-file: 'false'
