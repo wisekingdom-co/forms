@@ -1,7 +1,7 @@
 {
   "name": "@wisekingdom/forms",
   "description": "Wisekingdom Forms",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "main": "index.js",
   "types": "index.d.ts",
   "license": "MIT",
