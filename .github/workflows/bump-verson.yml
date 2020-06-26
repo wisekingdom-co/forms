@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@master
     - name: Conventional Changelog Action
       id: changelog
-      uses: isman-usoh/conventional-changelog-action@v2.5
+      uses: isman-usoh/conventional-changelog-action@v2.5.1
       with:
         github-token: ${{ secrets.PATNAME }}
         output-file: 'false'
