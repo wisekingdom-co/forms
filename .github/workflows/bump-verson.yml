@@ -1,0 +1,16 @@
+name: Bump version
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Conventional Changelog Action
+      id: changelog
+      uses: TriPSs/conventional-changelog-action@v2
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        output-file: 'false'
+        skip-on-empty: 'true'
